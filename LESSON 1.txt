@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>E-PORTFOLIO - Lesson 1</title>
+  <style>
+    body {
+      background-image: url('Background.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: 'Segoe Print', cursive;
+      background-color: #fce4ec;
+      color: #4a2c2c;
+    }
+
+    a {
+      text-decoration: none;
+      background: linear-gradient(135deg, #fff0f5, #e0f7fa);
+      color: #4b2e2e;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8b9ce, #f490b1, #f06090, #f01c4c);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px #9c27b0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fce4ec;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.85);
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+      border-left: 5px solid #ec407a;
+      padding-left: 15px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      padding: 5px 0;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #ff99bb, #ffffff);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">E-PORTFOLIO</div>
+    <nav>
+      <a href="Home.html">HOME</a>
+      <a href="LESSON 1.HTML">LESSON 1</a>
+      <a href="LESSON 2.HTML">LESSON 2</a>
+      <a href="LESSON 3.HTML">LESSON 3</a>
+      <a href="LESSON 4.HTML">LESSON 4</a>
+      <a href="LESSON 5.HTML">LESSON 5</a>
+      <a href="LESSON 6.HTML">LESSON 6</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Lesson 1</h1>
+      <p><strong>CSS:</strong> Cascading Style Sheets</p>
+      <p>Describes how HTML elements are to be displayed in media.</p>
+
+      <br>
+      <p><strong>Why use CSS?</strong></p>
+      <p>- Define styles for your web pages</p>
+      <p>- Provide consistency across web pages</p>
+      <p>- Saves time</p>
+      <p>- Improves accessibility and responsiveness</p>
+      <p>- Enhances design</p>
+      <p>- Easy maintenance</p>
+
+      <br>
+      <p><strong>Capabilities of CSS:</strong></p>
+      <p>- Easily update your pages</p>
+      <p>- Position objects</p>
+      <p>- Layer elements</p>
+      <p>- Create custom tags</p>
+
+      <br>
+      <p><strong>Advantages:</strong></p>
+      <p>- Saves time and effort</p>
+      <p>- Faster downloads and page loading</p>
+      <p>- Better design flexibility</p>
+      <p>- Easier to maintain and update</p>
+      <p>- Separation of content and design</p>
+
+      <br>
+      <p><strong>Layers of a Webpage:</strong></p>
+      <p><u>1. Content Layer</u> – Defines layout and content. The core HTML of the page.</p>
+      <p><u>2. Presentation Layer</u> – Controls how users see your page in a browser.</p>
+      <p><u>3. Behavior Layer</u> – Adds real-time interaction to your page.</p>
+
+      <br>
+      <p><strong> Content Layer Best Practices:</strong></p>
+      <p>- Use clear, readable text</p>
+      <p>- Use alt text for media</p>
+      <p>- Explain abbreviations</p>
+      <p>- Maintain good contrast</p>
+      <p>- Notify users of changes</p>
+
+      <br>
+      <p><strong>Presentation Layer Best Practices:</strong></p>
+      <p>- Text zoom must not break layout</p>
+      <p>- Interactive elements should be easy to find</p>
+      <p>- Good contrast between text and background</p>
+      <p>- Clear and consistent navigation</p>
+
+      <br>
+      <p><strong>Behavior Layer Best Practices:</strong></p>
+      <p>- Ensure all functions work regardless of input device</p>
+      <p>- Make the user experience smooth and easy</p>
+
+      <br>
+      <hr>
+
+      <p><strong>What I have learned:</strong></p>
+      <p>I realized that CSS is way more than just making websites look pretty — it’s what brings structure and life to a webpage. Understanding the three layers (Content, Presentation, Behavior) helped me see how web pages are built from the ground up and how each part affects the user experience.</p>
+    </section>
+  </main>
+
+</body>
+</html>

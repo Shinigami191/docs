@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-PORTFOLIO - Lesson 6</title>
+  <style>
+    body {
+      background-image: url('Background.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: 'Segoe Print', cursive;
+      background-color: #fce4ec;
+      color: #4a2c2c;
+    }
+
+    a {
+      text-decoration: none;
+      background: linear-gradient(135deg, #fff0f5, #e0f7fa);
+      color: #4b2e2e;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8b9ce, #f490b1, #f06090, #f01c4c);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px #9c27b0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fce4ec;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      padding: 5px 0;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #ff99bb, #ffffff);
+    }
+
+    section {
+      margin-bottom: 40px;
+      border-left: 5px solid #ec407a;
+      padding-left: 15px;
+    }
+.center-image {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">E-PORTFOLIO</div>
+    <nav>
+      <a href="Home.html">HOME</a>
+      <a href="LESSON 1.HTML">LESSON 1</a>
+      <a href="LESSON 2.HTML">LESSON 2</a>
+      <a href="LESSON 3.HTML">LESSON 3</a>
+      <a href="LESSON 4.HTML">LESSON 4</a>
+      <a href="LESSON 5.HTML">LESSON 5</a>
+      <a href="LESSON 6.HTML">LESSON 6</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Lesson 6</h1>
+
+      <p>Setting Dimensions</p>
+      <p>CSS can be used to manage dimensions such as visibility, width or height of HTML elements</p>
+
+      <br>
+
+      <p>Properties for Dimensions</p>
+      <p>Visibility: Indicates if an element is visible or hidden</p>
+      <p>Visible: Default value, the value is visible</p>
+      <p>Hidden: The element is hidden (but still takes up space)</p>
+      <p>Collapse:Only for table rows, row groups, columns, columns group and flex items that removes a row or column as if display none of used and renders it hidden</p>
+      <p>Width: Indicates the width</p>
+      <p>Height: Indicates the Height</p>
+      <p>Line-height: Indicates the line-spacing</p>
+      <p>Max-height: Indicates the maximum height</p>
+      <p>Min-height: Indicates the minimum height</p>
+      <p>Max-width: Indicates the maximum width</p>
+      <p>Min-width: Indicates the minimum width</p>
+
+      <br>
+
+      <p>Pseudo-Classes and Links</p>
+   <img src="Pseudo.jpg" alt="Pseudo and Links" class="center-image">
+      <p>Defined by a colon and are not user defined</p>
+      <p>Specific pseudo-classes can be used on specific HTML elements only</p>
+      <p>The anchor element has four pseudo classes</p>
+      <p>LVHA (Link, Visited, Hover, Active is the order of pseudo classes)</p>
+      <p>The value that you place inside … will be displayed whenever a pseudo property is performed </p>
+      <p>You can set any design in a pseudo class</p>
+      <p>Can be used on any element or block element on the web page</p>
+
+      <br>
+
+      <p>Link</p>
+      <p>For hyperlinks that have not yet visited</p>
+      <p>Set unvisited link characteristics</p>
+
+      <br>
+
+      <p>Visited</p>
+      <p>For visited hyperlinks</p>
+      <p>Set visited link characteristics or effect</p>
+
+      <br>
+
+      <p>Hover</p>
+      <p>For hyperlinks when the mouse is hovered above them</p>
+      <p>Set the character of a link element as when the user hovers or moves the mouse over the link</p>
+      <p>Should be placed after the link property for it to function properly </p>
+
+      <br>
+
+      <p>Active</p>
+      <p>For hyperlinks when they are clicked</p>
+      <p>Sets the character of an active link element as when the user clicks the mouse on the link</p>
+
+      <br>
+
+      <p>Focus</p>
+      <p>Sets the character of an active link element as when the user clicks and moves the mouse on the link</p>
+
+      <br>
+
+      <p>What I have learned:</p>
+      <p>Learning about these properties taught me how to make my webpages look just right on different screens. Discovering pseudo-classes for links opened my eyes to how small effects like hover and active states can enhance user experience, make sites more interactive, and boost my creativity in designing websites.</p>
+    </section>
+
+    <hr>
+  </main>
+
+</body>
+</html>

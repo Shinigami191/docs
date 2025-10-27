@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-PORTFOLIO</title>
+  <style>
+    body {
+      background-image: url('Background.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: 'Segoe Print', cursive;
+      background-color: #fce4ec;
+      color: #4a2c2c;
+    }
+
+    a {
+      text-decoration: none;
+      background: linear-gradient(135deg, #fff0f5, #e0f7fa);
+      color: #4b2e2e;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8b9ce, #f490b1, #f06090, #f01c4c);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px #9c27b0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fce4ec;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.85);
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      padding: 5px 0;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #ff99bb, #ffffff);
+    }
+
+    section {
+      margin-bottom: 40px;
+      border-left: 5px solid #ec407a;
+      padding-left: 15px;
+    }
+.center-image {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">E-PORTFOLIO</div>
+    <nav>
+      <a href="Home.html">HOME</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Lesson 1 -->
+    <section>
+      <h1>Aralin 1: Demand</h1>
+  <img src="Ap_Lesson_1.jpg" alt="Lesson 1 class="center-image">
+      <p>Demand</p>
+      <p>Dami ng isang kalakal o serbisyo na gusto at kayang bilhin ng mga mamimili sa iba’t ibang antas ng presyo sa takdang panahon.</p>
+
+      <p>Ceteris Paribus</p>
+      <p>Ipinagpapalagay na ang paresyo lamang ang salik na nakakaapekto sa pagbabago ng quantity demanded habang ang ibang salik ay hindi nagbabago o nakakaapekto rito.</p>
+
+      <p>Batas ng Demand:</p>
+      <p>Habang tumataas ang presyo ng produkto → bumababa ang dami na hinihiling at habang bumababa ang presyo → tumataas ang quantity demanded.</p>
+
+      <p>Demand Schedule</p>
+      <p>Isang listahan o table na nagpapakita kung ilang yunit ng produkto ang bibilhin ng mga tao sa bawat presyo.</p>
+
+      <p>Demand Curve:</p>
+      <p>Ito ay pababa mula kaliwa itaas papuntang kanan ibaba (downward slope) dahil sa inverse na relasyon ng presyo at dami.</p>
+
+      <p>Demand Function</p>
+      <p>Ang demand function ay matematikal na representasyon ng relasyon ng presyo at dami ng demand.</p>
+      <p>Qd = a − bP</p>
+      <p>Qd = Quantity Demanded (dami ng demand)</p>
+      <p>P = Presyo</p>
+      <p>a = Quantity demanded kapag libre ang produkto (intercept)</p>
+      <p>b = Slope (bilis ng pagbaba ng demand kapag tumaas ang presyo)</p>
+
+      <p>Mga salik na nakaaapekto sa demand</p>
+      <p>Kita, Panlasa, Dami ng Mamimili, Presyo ng Magkaugnay na Produkto, Inaasahan sa Presyo, Okasyon, Klima o Panahon</p>
+    </section>
+
+    <hr>
+
+    <!-- Lesson 2 -->
+    <section>
+      <h1>Lesson 2: Supply</h1>
+  <img src="Ap_Lesson_2.jpg" alt="Lesson 2 class="center-image">
+      <p>Supply</p>
+      <p>Dami ng produkto o serbisyo na handang ibenta ng mga negosyante sa iba't ibang presyo sa isang tiyak na panahon.</p>
+
+      <p>Ceteris Paribus</p>
+      <p>Ipinagpapalagay na ang presyo lamang ang salik na nakakaapekto sa supply habang ang ibang salik ay hindi nagbabago.</p>
+
+      <p>Batas ng Supply</p>
+      <p>Kapag tumaas ang presyo, tumataas ang supply, at kapag bumaba ang presyo, bumababa rin ang supply.</p>
+
+      <p>Supply Schedule:</p>
+      <p>Table na nagpapakita ng dami ng produkto na ibebenta sa bawat presyo.</p>
+
+      <p>Supply Curve:</p>
+      <p>Grapikong representasyon ng supply schedule, pataas mula kaliwa pakanan (positibong slope).</p>
+
+      <p>Supply Function:</p>
+      <p>Qₛ = c + dP</p>
+      <p>Qs = quantity supplied</p>
+      <p>P = presyo</p>
+      <p>c = intercept</p>
+      <p>d = slope</p>
+
+      <p>Mga salik na nakaaapekto sa Supply</p>
+      <p>Presyo ng input, Teknolohiya, Buwis at subsidy, Klima, Bilang ng producer</p>
+    </section>
+
+    <hr>
+
+    <!-- Lesson 3 -->
+    <section>
+      <h1>Lesson 3: Price Elasticity</h1>
+  <img src="Ap_Lesson_3.jpg" alt="Lesson 3 class="center-image">
+      <p>Sinusukat kung gaano kalaki ang reaksyon ng demand o supply sa pagbabago ng presyo.</p>
+
+      <p>Price Elasticity of Demand (PED)</p>
+      <p>PED = (% pagbabago sa Qd) / (% pagbabago sa presyo)</p>
+
+      <p>Price Elasticity of Supply (PES)</p>
+      <p>PES = (% pagbabago sa Qs) / (% pagbabago sa presyo)</p>
+
+      <p>Elastic Demand: PED &gt; 1 — sensitibo sa presyo (e.g. softdrinks)</p>
+      <p>Inelastic Demand: PED &lt; 1 — hindi sensitibo (e.g. bigas, gamot)</p>
+      <p>Unitary Elastic: PED = 1 — proporsyonal ang pagbabago</p>
+      <p>Ganap na Elastic: PED = ∞ — kahit kaunting presyo, malaking pagbabago</p>
+      <p>Ganap na Inelastic: PED = 0 — walang pagbabago kahit magbago ang presyo</p>
+    </section>
+
+    <hr>
+
+    <!-- Lesson 4 -->
+    <section>
+      <h1>Lesson 4: Market Equilibrium</h1>
+  <img src="Ap_Lesson_4.jpg" alt="Lesson 4 class="center-image">
+      <p>Equilibrium – pantay ang dami ng demand at supply sa isang presyo</p>
+
+      <p>Demand at Supply Function:</p>
+      <p>Qd = a − bP</p>
+      <p>Qs = c + dP</p>
+
+      <p>Equilibrium Formula:</p>
+      <p>Qd = Qs ⇒ a − bP = c + dP</p>
+
+      <p>Equilibrium Price:</p>
+      <p>P = (a − c) / (b + d)</p>
+
+      <p>Surplus – sobrang supply kaysa demand</p>
+      <p>Shortage – kulang ang supply kaysa demand</p>
+    </section>
+
+    <hr>
+
+    <!-- Lesson 5 -->
+    <section>
+      <h1>Lesson 5: Estruktura ng Pamilihan</h1>
+  <img src="Ap_Lesson_5.jpg" alt="Lesson 5 class="center-image">
+      <p><strong>Pamilihan:</strong> Lugar ng palitan ng produkto/serbisyo</p>
+
+      <p><strong>Ganap na Kompetisyon:</strong> Marami ang kalahok, pantay-pantay, pare-pareho ang produkto</p>
+
+      <p><strong>Monopolistikong Kompetisyon:</strong> May pagkakaiba ang produkto, branding, may kaunting kontrol sa presyo</p>
+
+      <p><strong>Oligopolyo:</strong> Iilan lang ang producer, may impluwensya sa isa't isa, mahirap pasukin</p>
+
+      <p><strong>Monopolyo:</strong> Isa lang ang nagbebenta, walang kapalit, may kontrol sa presyo</p>
+
+      <p><strong>Monopsonyo:</strong> Isa lang ang bumibili, may kontrol sa presyo</p>
+    </section>
+
+    <hr>
+
+    <!-- Lesson 6 -->
+    <section>
+      <h1>Lesson 6: Regulasyon ng Pamilihan</h1>
+  <img src="Ap_Lesson_6.jpg" alt="Lesson 6 class="center-image">
+      <p><strong>Price Ceiling:</strong> Itinakdang pinakamataas na presyo</p>
+      <p><strong>Price Floor:</strong> Itinakdang pinakamababang presyo</p>
+      <p><strong>Subsidy:</strong> Tulong pinansyal ng pamahalaan sa producer</p>
+      <p><strong>Buwis:</strong> Para mabawasan ang paggamit ng di-kanais-nais na produkto</p>
+      <p><strong>Patakaran:</strong> Anti-monopoly laws, proteksyon sa maliliit</p>
+      <p><strong>Proteksyon:</strong> Batas laban sa panlilinlang at pang-aabuso sa kalikasan</p>
+      <p><strong>R.A. 7581 (Price Control):</strong> Layunin ng pamahalaan itakda ang presyo</p>
+    </section>
+
+  </main>
+
+</body>
+</html>

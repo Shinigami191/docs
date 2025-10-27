@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-PORTFOLIO - Lesson 5</title>
+  <style>
+    body {
+      background-image: url('Background.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: 'Segoe Print', cursive;
+      background-color: #fce4ec;
+      color: #4a2c2c;
+    }
+
+    a {
+      text-decoration: none;
+      background: linear-gradient(135deg, #fff0f5, #e0f7fa);
+      color: #4b2e2e;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8b9ce, #f490b1, #f06090, #f01c4c);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px #9c27b0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fce4ec;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      padding: 5px 0;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #ff99bb, #ffffff);
+    }
+
+    section {
+      margin-bottom: 40px;
+      border-left: 5px solid #ec407a;
+      padding-left: 15px;
+    }
+.center-image {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">E-PORTFOLIO</div>
+    <nav>
+      <a href="Home.html">HOME</a>
+      <a href="LESSON 1.HTML">LESSON 1</a>
+      <a href="LESSON 2.HTML">LESSON 2</a>
+      <a href="LESSON 3.HTML">LESSON 3</a>
+      <a href="LESSON 4.HTML">LESSON 4</a>
+      <a href="LESSON 5.HTML">LESSON 5</a>
+      <a href="LESSON 6.HTML">LESSON 6</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Lesson 5</h1>
+
+      <p>CSS Selectors</p>
+      <p>Used to find or select the HTML elements you want to style</p>
+      <p>6 types</p>
+
+      <br>
+
+      <p>When to use</p>
+      <p>If you want to apply the same style to multiple elements, category or purpose</p>
+      <p>When styling many elements that share a same tyle- even if they have different tags</p>
+
+      <br>
+
+      <p>Element Selector</p>
+      <img src="Element.jpg" alt="Element" class="center-image">
+      <p>Selects HTML elements and applies CSS to them </p>
+
+      <br>
+
+      <p>ID Selector</p>
+     <img src="Id.jpg" alt="Id" class="center-image">
+      <p>Applied to one element in a page</p>
+      <p>Normally used ones</p>
+      <p>Defines by “#” and uses id attribute</p>
+      <p>Selects the HTML element with a unique identifier (id) and adds CSS to it</p>
+      <p>Not advisable to start an id selector with a number because some browsers do not support it</p>
+      <p>Is unique and selects one unique element</p>
+
+      <br>
+
+      <p>When to use</p>
+      <p>When styling a unique element that appears only once on a page</p>
+
+      <br>
+
+      <p>Universal Selector</p>
+   <img src="Universal.jpg" alt="Universal" class="center-image">
+      <p>Also referred as Wildcard selector</p>
+      <p>Selects every single HTML element on the page</p>
+      <p>Written by using an asterisk</p>
+
+      <br>
+
+      <p>When to use</p>
+      <p>When you want to style all elements on the page</p>
+
+      <br>
+
+      <p>Group Selector</p>
+     <img src="Group.jpg" alt="Group" class="center-image">
+      <p>Allows you to select multiple elements and apply the same style to all of them</p>
+      <p>Uses commas to separate the HTML element</p>
+
+      <br>
+
+      <p>When to use</p>
+      <p>When different elements share the same styling</p>
+
+      <br>
+
+      <p>Attribute selector</p>
+   <img src="Attribute.jpg" alt="Attribute" class="center-image">
+      <p>Selects elements based on specific attribute values</p>
+      <p>Only selects an element if a specified given attribute exist</p>
+      <p>Syntax is Element{attribute}</p>
+
+      <br>
+
+      <p>When to use</p>
+      <p>When you want to style elements based on their html attributes</p>
+
+      <br>
+
+      <p>What I have learned:</p>
+      <p>Understanding different selectors helped me realize how useful l CSS can be. I learned that I can target exactly what I want on the page, whether it’s one unique element or a whole group. This makes my designs more efficient and organized, and I feel more in control when building websites.</p>
+    </section>
+
+    <hr>
+  </main>
+
+</body>
+</html>

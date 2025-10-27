@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-PORTFOLIO - Lesson 3</title>
+  <style>
+    body {
+      background-image: url('Background.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: 'Segoe Print', cursive;
+      background-color: #fce4ec;
+      color: #4a2c2c;
+    }
+
+    a {
+      text-decoration: none;
+      background: linear-gradient(135deg, #fff0f5, #e0f7fa);
+      color: #4b2e2e;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8b9ce, #f490b1, #f06090, #f01c4c);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px #9c27b0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fce4ec;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      padding: 5px 0;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #ff99bb, #ffffff);
+    }
+
+    section {
+      margin-bottom: 40px;
+      border-left: 5px solid #ec407a;
+      padding-left: 15px;
+    }
+.center-image {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">E-PORTFOLIO</div>
+    <nav>
+      <a href="Home.html">HOME</a>
+      <a href="LESSON 1.HTML">LESSON 1</a>
+      <a href="LESSON 2.HTML">LESSON 2</a>
+      <a href="LESSON 3.HTML">LESSON 3</a>
+      <a href="LESSON 4.HTML">LESSON 4</a>
+      <a href="LESSON 5.HTML">LESSON 5</a>
+      <a href="LESSON 6.HTML">LESSON 6</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Lesson 3</h1>
+      <p><strong>Display Property:</strong> Allows you to control how an element is displayed.</p>
+
+      <p><strong>Block Level Element:</strong> Takes up as much space as possible by default and is laid out vertically.</p>
+
+      <p><strong>Inline Level Element:</strong> Displays in a line, does not force text to a new line, and is laid out horizontally. Cannot contain block level elements.</p>
+
+      <p><strong>Importance:</strong> Some CSS properties react differently for each display type.</p>
+
+      <p><strong>Property for Display:</strong></p>
+      <p>- <code>display: inline</code>: Inline display or horizontal layout</p>
+      <p>- <code>display: block</code>: Block display or vertical layout</p>
+      <p>- <code>display: list-item</code>: Display as a list item</p>
+      <p>- <code>display: none</code>: Element does not affect layout</p>
+      <p>- <code>display: inherit</code>: Inherits from the parent element</p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h1>Div Tag</h1>
+   <img src="Div.jpg" alt="Div" class="center-image">
+      <p>Divides the contents of a web page into individual sections.</p>
+      <p>Allows styling to specific sections of your webpage.</p>
+      <p>Acts as a block-level element and structures your HTML cleanly.</p>
+      <p>Should not be used inside a paragraph.</p>
+      <p>Creates spacing before and after blocks of content.</p>
+    </section>
+
+    <section>
+      <h1>Span Tag</h1>
+   <img src="Span.jpg" alt="Span" class="center-image">
+      <p>Generic inline tag used to emphasize or target specific parts of inline content.</p>
+      <p>Often used inside paragraphs or small content chunks.</p>
+    </section>
+
+    <section>
+      <h1>Span and Div Tags</h1>
+      <p>They do not have default styles.</p>
+      <p>Need to be styled using attributes like <code>class</code> or <code>id</code>.</p>
+      <p>Used with CSS to format parts of content.</p>
+    </section>
+
+    <section>
+      <h1>Attribute</h1>
+      <p><strong>Class:</strong> Indicates which CSS style will be applied to an element.</p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h1>What I Have Learned</h1>
+      <p>Before, I didn’t really think about how elements are arranged on a page, but now I understand the difference between block and inline elements. This helped me realize how much control CSS gives me in organizing content, which makes designing websites feel more creative and fun.</p>
+    </section>
+  </main>
+
+</body>
+</html>
